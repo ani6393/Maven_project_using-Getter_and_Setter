@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+    
+    <bean id="Petrol_Statiion" class="com.apun.Project.Coder.PetrolStation">
+    <property name="Price" value="80"></property>
+   <property name="State" value="Uttar Pradesh"></property>
+   <property name="City" value="Kanpur"></property>
+   
+   <!-- not accepted repeated value-->
+   
+   <!-- <property name="State" value="Bihar"></property>
+   <property name="City" value ="jaunpur"></property>
+   <property name="Price" value="110"></property>-->
+   
+   
+   
+    </bean>
+   <bean id="Diesel_Statiion" class="com.apun.Project.Coder.DieselStation">
+   <property name="Price" value="100"></property>
+   <property name="State" value="Uttar Pradesh"></property>
+   <property name="City" value="Kanpur"></property>
+    </bean> 
+
+</beans>
